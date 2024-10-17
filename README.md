@@ -27,3 +27,17 @@ mindmap
         Background
     
 ```
+```mermaid
+flowchart TD
+    A[Information] -->|Create| B(Plot)
+    B --> C{Graph}
+    C -->|One| D[Bar-Plot]
+    C -->|Two| E[Point-Plot]
+    C -->|Three| F[Shatter-Plot]
+    C -->|Four| G[Line-Plot]
+    D -->|Choose| H[Color]
+    E -->|Select| I[Size]
+    F -->|Define| J[Shape]
+    G -->|Determine| K[Gradient]
+    
+```
